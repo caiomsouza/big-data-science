@@ -83,6 +83,11 @@ head(hres)
 class(hres)
 ```
 
+# RStudio + Hive
+
+![RStudio + Hive](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/rstudio_hive_query_web_logs.PNG)
+
+
 # Troubleshooting
 
 During the test I had the error below:
