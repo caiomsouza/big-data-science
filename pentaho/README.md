@@ -1,6 +1,6 @@
 # PDI + Hive and BI Server + Hive
 
-This project was created to join the power of Apache Hadoop/Hive + R/RStudio.
+This project was created to join the power of Apache Hadoop/Hive + R/RStudio + PDI + BA Server + Python
 
 #PDI + Hive
 

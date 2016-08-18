@@ -1,18 +1,22 @@
 # Big Data Science
 
-This project was created to join the power of Apache Hadoop/Hive + R/RStudio.
+This project was created to join the power of Apache Hadoop/Hive + R/RStudio + PDI + BA Server + Python
 
 # Environment Tested
 The Environment used to this test was: <BR>
 * RStudio Version 0.99.902
 * R version 3.3.1 (2016-06-21)
 
+# Pentaho
+* PDI 6.1.0.1-196 Build Date: April 7, 2016 12:08:49
+* BA Server 6.1.0.1
+
+
 # Hadoop
 * CDH 5.7.0 - Cloudera Release Notes
 * https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh_package_tarball_57.html#concept_0vc_ddn_yk
 * Apache Hadoop (hadoop-2.6.0+cdh5.7.0+1280)
 * Apache Hive (hive-1.1.0+cdh5.7.0+522)
-
 
 # R Version
 ```
@@ -108,3 +112,12 @@ Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[
 # The problem was solved using the correct Hive JDBC
 * https://www.cloudera.com/documentation/enterprise/release-notes/topics/cdh_vd_cdh_package_tarball_57.html#concept_0vc_ddn_yk
 * https://issues.apache.org/jira/browse/HIVE-6050
+
+
+# PDI (Pentaho Data Integration) + Hive
+
+![PDI + Hive - Connection](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/pdi_hive_connection_example.PNG)
+
+![PDI + Hive](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/pdi_hive_input_table_step.PNG)
+
+![PDI + Hive - Query](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/pdi_hive_sql_query_web_logs.PNG)
