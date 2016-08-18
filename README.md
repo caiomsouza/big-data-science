@@ -87,6 +87,9 @@ class(hres)
 
 ![RStudio + Hive](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/rstudio_hive_query_web_logs.PNG)
 
+# CDH 5.7.0
+![CDH 5.7.0](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/cdh_query_web_logs.PNG)
+
 
 # Troubleshooting
 
