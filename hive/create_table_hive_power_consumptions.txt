@@ -1,0 +1,21 @@
+CREATE DATABASE stage;
+
+CREATE TABLE power_consumptions (date STRING,
+                                 time STRING,
+                                 global_active_power DOUBLE,
+                                 global_reactive_power DOUBLE,
+                                 voltage DOUBLE,
+                                 global_intensity DOUBLE,
+                                 sub_metering_1 DOUBLE,
+                                 sub_metering_2 DOUBLE,
+                                 sub_metering_3 DOUBLE)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '59'
+
+LOAD DATA INPATH '/user/cloudera/stage/power_consumption/household_power_consumption.txt' OVERWRITE INTO TABLE power_consumptions
+
+
+-- jdbc:hive2://192.168.0.29:10000/default
+-- jdbc:hive2://localhost:10000/db
+-- org.apache.hive.jdbc.HiveDriver
+-- user: hive
+-- password: empty
