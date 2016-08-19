@@ -20,10 +20,11 @@ setwd("~/GitHub/caiomsouza/big-data-science")
 
 library(RJDBC)
 
+
 #Load Hive JDBC driver
 hivedrv <- JDBC("org.apache.hive.jdbc.HiveDriver",
-                c(list.files("libs/hadoop",pattern="jar$",full.names=T),
-                  list.files("libs/hive",pattern="jar$",full.names=T)))
+                c(list.files("drivers/cdh55/hadoop",pattern="jar$",full.names=T),
+                  list.files("drivers/cdh55/hive",pattern="jar$",full.names=T)))
 
 # jdbc:hive2://192.168.0.29:10000/default
 # org.apache.hive.jdbc.HiveDriver
