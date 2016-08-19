@@ -121,3 +121,9 @@ Error in .jcall(drv@jdrv, "Ljava/sql/Connection;", "connect", as.character(url)[
 ![PDI + Hive](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/pdi_hive_input_table_step.PNG)
 
 ![PDI + Hive - Query](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/pdi_hive_sql_query_web_logs.PNG)
+
+# BI Server + Hive
+![BI Server + Hive](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/biserveree_hive_connection.PNG)
+
+BI Server + Hive + OLAP Cube
+![BI Server + Hive + OLAP Cube](https://github.com/caiomsouza/big-data-science/blob/master/printscreen/biserveree_hive_cubo_olap.PNG)
