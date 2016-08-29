@@ -15,6 +15,14 @@ Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.p
 WARNING: Hive CLI is deprecated and migration to Beeline is recommended.
 ```
 
+Create database
+```
+hive> create database stage;
+OK
+Time taken: 0.684 seconds
+hive>
+```
+
 Show databases, use and show tables;
 ```
 hive> show databases;
