@@ -48,21 +48,6 @@ class(hres)
 
 head(hres$tweets_json2.id)
 head(hres$tweets_json2.user)
-head(hres$tweets_json2.user)
+head(hres$tweets_json2.text)
 
 
-
-
-# Table: web_logs
-query = "select * from web_logs LIMIT 10"
-hres <- dbGetQuery(hivecon, query)
-
-head(hres)
-class(hres)
-
-# Table: power_consumptions
-query = "select * from power_consumptions LIMIT 10"
-hres <- dbGetQuery(hivecon, query)
-
-head(hres)
-class(hres)
